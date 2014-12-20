@@ -1,0 +1,181 @@
+/* line 5, ../../../../../../home/jp3bgy/.gem/ruby/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../home/jp3bgy/.gem/ruby/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../home/jp3bgy/.gem/ruby/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../home/jp3bgy/.gem/ruby/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../home/jp3bgy/.gem/ruby/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../home/jp3bgy/.gem/ruby/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../home/jp3bgy/.gem/ruby/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../home/jp3bgy/.gem/ruby/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../home/jp3bgy/.gem/ruby/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/main.sass */
+div {
+  vertical-align: top;
+  font-family: "Ricty", sans-serif;
+}
+
+/* line 6, ../sass/main.sass */
+#whole {
+  width: 960px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px;
+}
+/* line 14, ../sass/main.sass */
+#whole header {
+  margin-bottom: 20px;
+}
+/* line 16, ../sass/main.sass */
+#whole header #headerlogo {
+  height: 50px;
+  display: inline-block;
+}
+/* line 19, ../sass/main.sass */
+#whole header #headertitle {
+  display: inline-block;
+  height: 50px;
+  letter-spacing: -2px;
+}
+/* line 23, ../sass/main.sass */
+#whole header #headertitle h2 {
+  font-size: 20px;
+}
+/* line 25, ../sass/main.sass */
+#whole header #headertitle h1 {
+  font-size: 30px;
+}
+/* line 29, ../sass/main.sass */
+#whole #topphoto {
+  display: inline-block;
+  margin-right: 20px;
+}
+/* line 32, ../sass/main.sass */
+#whole #topphoto img {
+  width: 470px;
+}
+/* line 34, ../sass/main.sass */
+#whole #photolinks {
+  display: inline-block;
+  width: 470px;
+  overflow: hidden;
+}
+/* line 39, ../sass/main.sass */
+#whole #photolinks ul li {
+  display: inline-block;
+  width: 225px;
+  height: 225px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+/* line 45, ../sass/main.sass */
+#whole #photolinks ul li img {
+  height: 225px;
+  width: 225px;
+}
+/* line 48, ../sass/main.sass */
+#whole #photolinks ul li .phototext {
+  height: 15px;
+  padding: 5px 10px;
+  position: relative;
+  bottom: 25px;
+  font-size: 15px;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+/* line 56, ../sass/main.sass */
+#whole #photolinks ul li img:hover {
+  opacity: 0.7;
+}
+/* line 58, ../sass/main.sass */
+#whole #photolinks ul li:nth-child(odd) {
+  margin-right: 20px;
+}
+/* line 60, ../sass/main.sass */
+#whole #news {
+  margin-top: 10px;
+  display: inline-block;
+  width: 470px;
+}
+/* line 64, ../sass/main.sass */
+#whole #news #newstitle {
+  background-color: #ddd;
+  color: #333;
+  font-size: 20px;
+  padding: 3px 10px;
+}
+/* line 70, ../sass/main.sass */
+#whole #news ul li {
+  font-size: 15px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
+  padding-left: 10px;
+}
+/* line 74, ../sass/main.sass */
+#whole #news ul li div {
+  margin-bottom: 6px;
+  display: inline-block;
+  overflow: hidden;
+}
+/* line 78, ../sass/main.sass */
+#whole #news ul li #newsheader {
+  width: 390px;
+}
+/* line 81, ../sass/main.sass */
+#whole #news ul li:last-child {
+  border: none;
+}
