@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 5, ../../../../var/lib/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -66,10 +67,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 3, ../sass/main.sass */
 div {
   vertical-align: top;
-  font-family: "Ricty", sans-serif;
 }
 
-/* line 6, ../sass/main.sass */
+/* line 5, ../sass/main.sass */
+h1, h2, h3, h4, h5 {
+  font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", YuGothic, "游ゴシック", Meiryo, メイリオ, sans-serif;
+}
+
+/* line 7, ../sass/main.sass */
 #whole {
   width: 960px;
   margin-top: 10px;
@@ -77,45 +82,45 @@ div {
   margin-right: auto;
   padding: 10px 20px;
 }
-/* line 14, ../sass/main.sass */
+/* line 15, ../sass/main.sass */
 #whole header {
   margin-bottom: 20px;
 }
-/* line 16, ../sass/main.sass */
+/* line 17, ../sass/main.sass */
 #whole header #headerlogo {
   height: 50px;
   display: inline-block;
 }
-/* line 19, ../sass/main.sass */
+/* line 20, ../sass/main.sass */
 #whole header #headertitle {
   display: inline-block;
   height: 50px;
   letter-spacing: -2px;
 }
-/* line 23, ../sass/main.sass */
+/* line 24, ../sass/main.sass */
 #whole header #headertitle h2 {
   font-size: 20px;
 }
-/* line 25, ../sass/main.sass */
+/* line 26, ../sass/main.sass */
 #whole header #headertitle h1 {
   font-size: 30px;
 }
-/* line 29, ../sass/main.sass */
+/* line 30, ../sass/main.sass */
 #whole #topphoto {
   display: inline-block;
   margin-right: 20px;
 }
-/* line 32, ../sass/main.sass */
+/* line 33, ../sass/main.sass */
 #whole #topphoto img {
   width: 470px;
 }
-/* line 34, ../sass/main.sass */
+/* line 35, ../sass/main.sass */
 #whole #photolinks {
   display: inline-block;
   width: 470px;
   overflow: hidden;
 }
-/* line 39, ../sass/main.sass */
+/* line 40, ../sass/main.sass */
 #whole #photolinks ul li {
   display: inline-block;
   width: 225px;
@@ -123,12 +128,12 @@ div {
   margin-bottom: 20px;
   overflow: hidden;
 }
-/* line 45, ../sass/main.sass */
+/* line 46, ../sass/main.sass */
 #whole #photolinks ul li img {
   height: 225px;
   width: 225px;
 }
-/* line 48, ../sass/main.sass */
+/* line 49, ../sass/main.sass */
 #whole #photolinks ul li .phototext {
   height: 15px;
   padding: 5px 10px;
@@ -138,44 +143,44 @@ div {
   color: #333;
   background-color: rgba(255, 255, 255, 0.7);
 }
-/* line 56, ../sass/main.sass */
+/* line 57, ../sass/main.sass */
 #whole #photolinks ul li img:hover {
   opacity: 0.7;
 }
-/* line 58, ../sass/main.sass */
+/* line 59, ../sass/main.sass */
 #whole #photolinks ul li:nth-child(odd) {
   margin-right: 20px;
 }
-/* line 60, ../sass/main.sass */
+/* line 61, ../sass/main.sass */
 #whole #news {
   margin-top: 10px;
   display: inline-block;
   width: 470px;
 }
-/* line 64, ../sass/main.sass */
+/* line 65, ../sass/main.sass */
 #whole #news #newstitle {
   background-color: #ddd;
   color: #333;
   font-size: 20px;
   padding: 3px 10px;
 }
-/* line 70, ../sass/main.sass */
+/* line 71, ../sass/main.sass */
 #whole #news ul li {
   font-size: 15px;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
   padding-left: 10px;
 }
-/* line 74, ../sass/main.sass */
+/* line 75, ../sass/main.sass */
 #whole #news ul li div {
   margin-bottom: 6px;
   display: inline-block;
   overflow: hidden;
 }
-/* line 78, ../sass/main.sass */
+/* line 79, ../sass/main.sass */
 #whole #news ul li #newsheader {
   width: 360px;
 }
-/* line 81, ../sass/main.sass */
+/* line 82, ../sass/main.sass */
 #whole #news ul li:last-child {
   border: none;
 }
