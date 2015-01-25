@@ -141,7 +141,6 @@ h1, h2, h3, h4, h5 {
 }
 /* line 53, ../sass/main.sass */
 #whole #imglinks ul li a .imgtext {
-  font-family: serif;
   height: 15px;
   padding: 5px 10px;
   position: relative;
@@ -152,7 +151,7 @@ h1, h2, h3, h4, h5 {
   transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
 }
-/* line 66, ../sass/main.sass */
+/* line 65, ../sass/main.sass */
 #whole #imglinks ul li:hover > a > .imgtext {
   height: 25px;
   bottom: 35px;
@@ -160,19 +159,18 @@ h1, h2, h3, h4, h5 {
   color: #222;
   font-size: 25px;
 }
-/* line 72, ../sass/main.sass */
+/* line 71, ../sass/main.sass */
 #whole #imglinks ul li:nth-child(odd) {
   margin-right: 20px;
 }
 
-/* line 74, ../sass/main.sass */
+/* line 73, ../sass/main.sass */
 .toplists {
-  font-family: serif;
   margin-top: 10px;
   display: inline-block;
   width: 470px;
 }
-/* line 79, ../sass/main.sass */
+/* line 77, ../sass/main.sass */
 .toplists .topliststitle {
   background-color: #ddd;
   color: #333;
@@ -180,26 +178,26 @@ h1, h2, h3, h4, h5 {
   font-family: "Hiragino Mincho ProN", "ヒラギノ明朝 ProN W3", YuMincho, "游明朝", serif;
   padding: 3px 10px;
 }
-/* line 86, ../sass/main.sass */
+/* line 84, ../sass/main.sass */
 .toplists .topliststable {
   margin: 3px 10px;
   width: 450px;
 }
-/* line 89, ../sass/main.sass */
+/* line 87, ../sass/main.sass */
 .toplists .topliststable .toplistheader {
   width: 80%;
 }
-/* line 91, ../sass/main.sass */
+/* line 89, ../sass/main.sass */
 .toplists .topliststable .toplistdate {
   width: 20%;
 }
-/* line 93, ../sass/main.sass */
+/* line 91, ../sass/main.sass */
 .toplists tr {
   height: 25px;
   text-align: center;
   font-size: 15px;
 }
-/* line 97, ../sass/main.sass */
+/* line 95, ../sass/main.sass */
 .toplists tr:not(:last-child) {
   border-bottom: thin dashed #ccc;
 }
