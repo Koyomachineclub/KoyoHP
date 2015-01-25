@@ -71,13 +71,13 @@ div {
 
 /* line 5, ../sass/main.sass */
 h1, h2, h3, h4, h5 {
-  font-family: Georgia, Bodoni, "Hiragino Mincho ProN", "ヒラギノ明朝 ProN W3", YuMincho, "游明朝", TakaoPMincho, serif;
+  font-family: Bodoni, "Hiragino Mincho ProN", "ヒラギノ明朝 ProN W3", YuMincho, "游明朝", TakaoPMincho, serif;
 }
 
 /* line 7, ../sass/main.sass */
 #whole {
   width: 960px;
-  font-family: Georgia, Bodoni, "Hiragino Mincho ProN", "ヒラギノ明朝 ProN W3", YuMincho, "游明朝", TakaoPMincho, serif;
+  font-family: Bodoni, "Hiragino Mincho ProN", "ヒラギノ明朝 ProN W3", YuMincho, "游明朝", TakaoPMincho, serif;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
