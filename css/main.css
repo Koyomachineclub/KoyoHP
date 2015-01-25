@@ -169,10 +169,8 @@ h1, h2, h3, h4, h5 {
   margin-top: 10px;
   display: inline-block;
   width: 470px;
-  max-height: 100px;
-  overflow: scroll;
 }
-/* line 79, ../sass/main.sass */
+/* line 77, ../sass/main.sass */
 .toplists .topliststitle {
   background-color: #ddd;
   color: #333;
@@ -180,10 +178,12 @@ h1, h2, h3, h4, h5 {
   font-family: "Hiragino Mincho ProN", "ヒラギノ明朝 ProN W3", YuMincho, "游明朝", serif;
   padding: 3px 10px;
 }
-/* line 86, ../sass/main.sass */
+/* line 84, ../sass/main.sass */
 .toplists .topliststable {
   margin: 3px 10px;
   width: 450px;
+  max-height: 100px;
+  overflow: scroll;
 }
 /* line 89, ../sass/main.sass */
 .toplists .topliststable table {
