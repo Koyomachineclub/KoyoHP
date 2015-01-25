@@ -187,23 +187,24 @@ h1, h2, h3, h4, h5 {
 }
 /* line 89, ../sass/main.sass */
 .toplists .topliststable table {
-  width: 100%;
+  width: 90%;
+  margin: auto;
 }
-/* line 91, ../sass/main.sass */
+/* line 92, ../sass/main.sass */
 .toplists .topliststable .toplistheader {
   width: 80%;
 }
-/* line 93, ../sass/main.sass */
+/* line 94, ../sass/main.sass */
 .toplists .topliststable .toplistdate {
   width: 20%;
 }
-/* line 95, ../sass/main.sass */
+/* line 96, ../sass/main.sass */
 .toplists tr {
   height: 25px;
   text-align: center;
   font-size: 15px;
 }
-/* line 99, ../sass/main.sass */
+/* line 100, ../sass/main.sass */
 .toplists tr:not(:last-child) {
   border-bottom: thin dashed #ccc;
 }
