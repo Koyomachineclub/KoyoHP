@@ -106,23 +106,92 @@ h1, h2, h3, h4, h5 {
 #whole header #headertitle h1 {
   font-size: 30px;
 }
-/* line 31, ../sass/main.sass */
-#whole #topimg {
+
+/* line 30, ../sass/main.sass */
+#left {
+  display: inline-block;
+  width: 470px;
+  float: left;
+}
+/* line 34, ../sass/main.sass */
+#left #topimg {
   display: inline-block;
   margin-right: 20px;
 }
-/* line 34, ../sass/main.sass */
-#whole #topimg img {
+/* line 37, ../sass/main.sass */
+#left #topimg img {
   width: 470px;
 }
-/* line 36, ../sass/main.sass */
-#whole #imglinks {
+
+/* line 39, ../sass/main.sass */
+#warning {
+  background: url(/image/warn.svg) no-repeat;
+  border: solid 2px #f00;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+/* line 44, ../sass/main.sass */
+.toplists {
+  border: solid 1px #eee;
+  margin-top: 10px;
+  display: inline-block;
+  width: 470px;
+}
+/* line 49, ../sass/main.sass */
+.toplists .topliststitle {
+  background-color: #ddd;
+  color: #333;
+  font-size: 20px;
+  padding: 3px 10px;
+}
+/* line 55, ../sass/main.sass */
+.toplists .topliststable {
+  margin: 3px 0px;
+  width: 100%;
+  max-height: 100px;
+  overflow-y: scroll;
+}
+/* line 60, ../sass/main.sass */
+.toplists .topliststable table {
+  width: 450px;
+  margin: auto;
+}
+/* line 63, ../sass/main.sass */
+.toplists .topliststable .toplistheader {
+  width: 360px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+/* line 67, ../sass/main.sass */
+.toplists .topliststable .toplistdate {
+  width: 90px;
+}
+/* line 69, ../sass/main.sass */
+.toplists tr {
+  height: 25px;
+  text-align: center;
+  font-size: 15px;
+}
+/* line 73, ../sass/main.sass */
+.toplists tr:not(:last-child) {
+  border-bottom: thin dashed #ccc;
+}
+
+/* line 75, ../sass/main.sass */
+#right {
+  display: inline-block;
+  width: 470px;
+  float: right;
+}
+/* line 79, ../sass/main.sass */
+#right #imglinks {
   display: inline-block;
   width: 470px;
   overflow: hidden;
 }
-/* line 41, ../sass/main.sass */
-#whole #imglinks ul li {
+/* line 84, ../sass/main.sass */
+#right #imglinks ul li {
   cursor: pointer;
   display: inline-block;
   width: 225px;
@@ -130,17 +199,17 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 20px;
   overflow: hidden;
 }
-/* line 48, ../sass/main.sass */
-#whole #imglinks ul li a {
+/* line 91, ../sass/main.sass */
+#right #imglinks ul li a {
   text-decoration: none;
 }
-/* line 50, ../sass/main.sass */
-#whole #imglinks ul li a img {
+/* line 93, ../sass/main.sass */
+#right #imglinks ul li a img {
   height: 225px;
   width: 225px;
 }
-/* line 53, ../sass/main.sass */
-#whole #imglinks ul li a .imgtext {
+/* line 96, ../sass/main.sass */
+#right #imglinks ul li a .imgtext {
   height: 15px;
   padding: 5px 10px;
   position: relative;
@@ -151,60 +220,15 @@ h1, h2, h3, h4, h5 {
   transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
 }
-/* line 65, ../sass/main.sass */
-#whole #imglinks ul li:hover > a > .imgtext {
+/* line 108, ../sass/main.sass */
+#right #imglinks ul li:hover > a > .imgtext {
   height: 25px;
   bottom: 35px;
   background-color: rgba(255, 255, 255, 0.9);
   color: #222;
   font-size: 25px;
 }
-/* line 71, ../sass/main.sass */
-#whole #imglinks ul li:nth-child(odd) {
+/* line 114, ../sass/main.sass */
+#right #imglinks ul li:nth-child(odd) {
   margin-right: 20px;
-}
-
-/* line 73, ../sass/main.sass */
-.toplists {
-  border: solid 1px #eee;
-  margin-top: 10px;
-  display: inline-block;
-  width: 470px;
-}
-/* line 78, ../sass/main.sass */
-.toplists .topliststitle {
-  background-color: #ddd;
-  color: #333;
-  font-size: 20px;
-  padding: 3px 10px;
-}
-/* line 84, ../sass/main.sass */
-.toplists .topliststable {
-  margin: 3px 0px;
-  width: 100%;
-  max-height: 100px;
-  overflow-y: scroll;
-}
-/* line 89, ../sass/main.sass */
-.toplists .topliststable table {
-  width: 450px;
-  margin: auto;
-}
-/* line 92, ../sass/main.sass */
-.toplists .topliststable .toplistheader {
-  width: 80%;
-}
-/* line 94, ../sass/main.sass */
-.toplists .topliststable .toplistdate {
-  width: 20%;
-}
-/* line 96, ../sass/main.sass */
-.toplists tr {
-  height: 25px;
-  text-align: center;
-  font-size: 15px;
-}
-/* line 100, ../sass/main.sass */
-.toplists tr:not(:last-child) {
-  border-bottom: thin dashed #ccc;
 }

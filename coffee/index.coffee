@@ -34,3 +34,16 @@ $.getJSON("json/indexphotolinks.json",(data)->
     return
 )
 
+$.getJSON("json/indexwarning.json",(data)->
+  console.log data.warn
+  if data.warn
+    $("#warning").html(data.warn)
+    $("#warning").css("display","block")
+    return
+).error(
+  (jqXHR,testStatus,errorThrown)->
+    console.log "今日は何もないよー"
+    return
+)
+
+

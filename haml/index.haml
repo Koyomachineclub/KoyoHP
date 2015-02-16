@@ -17,14 +17,17 @@
           %h1
             甲陽学院中学校
         %nav#tile
-
-      %div#topimg
-        %img{ :src => "image/Hikariniwa.JPG", :alt => "光庭" }/
-      %div#imglinks
-      %div.toplists#news
-        %h3.topliststitle
-          News
-        %div.topliststable#newstable
+      %div#left
+        %div#topimg
+          %img{ :src => "image/Hikariniwa.JPG", :alt => "光庭" }/
+        %div#warning{ :style => "display:none"}
+        %div.toplists#news
+          %h3.topliststitle
+            News
+          %div.topliststable#newstable
+            
+      %div#right
+        %div#imglinks
 
       %footer
 

@@ -31,3 +31,13 @@ $.getJSON("json/indexphotolinks.json", function(data) {
 }).error(function(jqXHR, testStatus, errorThrown) {
   $("#imglinks").html("access error " + jqXHR.responseText + " " + errorThrown);
 });
+
+$.getJSON("json/indexwarning.json", function(data) {
+  console.log(data.warn);
+  if (data.warn) {
+    $("#warning").html(data.warn);
+    $("#warning").css("display", "block");
+  }
+}).error(function(jqXHR, testStatus, errorThrown) {
+  console.log("今日は何もないよー");
+});
